@@ -5,8 +5,8 @@
   <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.8/angular.min.js"></script>
   <script src="LunchCheckApp.js"></script>
 </head>
-<body>
-  <div class="conatainer">
+<body ng-app="LunchCheck">
+  <div class="conatainer" ng-controller="LunchCheckController">
 	<h1>Lunch Checker</h1>
 	   <div class="form-group form-control">
           <input id="lunch-menu" type="text" placeholder="list comma separated dishes you usually have for lunch">
